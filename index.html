@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>IPDC</title>
+</head>
+<body>
+    <section class="main">
+        <header>
+            <img src="assets/website-logo.png" alt="logo">
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#">RETAIL</a></li>
+                <li><a href="#">SME</a></li>
+                <li><a href="#">CORPORATE</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">COVID 19</a></li> 
+                <li><a href="#">CAMPGAINS</a></li> 
+            </ul>
+            <!-- iService Button Group -->
+            <div class="btn-grp">
+                <img src="assets/search-icon.png" alt="search">
+                <button class="btn">iService</button>
+            </div>
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-content-left">
+                <h1>Chase Your <br> Dream with us</h1>
+                <p>The harder you work for something, the greater you'll feel when you achieve it.</p>
+                <button>APPLY ONLINE</button>
+                <button>LOAN CALCULATOR</button>
+            </div>
+            <div class="hero-content-right">
+                <div class="loan-options" style="position: absolute;flex-direction: column;gap: 100px;">
+                    <div style="display: flex;justify-content: center;width: 50%;"><div class="car-loan"><span><img src="assets/car.png">Car Loan</span></div></div>
+                    <div style="display: flex;justify-content: flex-end;width: 70%;"><div class="home-loan"><span><img src="assets/House.png">Home Loan</span></div></div>
+                </div>
+                <img src="assets/hero-image.png" alt="hero-img">
+            </div>
+        </section>
+        <footer>
+            <span><img src="assets/phone.png" alt="phone-image">1659 |</span>
+            <img src="assets/facebook.png" alt="facebook-img">
+            <img src="assets/youtube.png" alt="youtube-image">
+            <img src="assets/linkedin.png" alt="linkedin-img">
+            <img src="assets/instagram.png" alt="insta-img">
+        </footer>
+    </section>
+    <script>
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
