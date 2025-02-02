@@ -2,6 +2,10 @@
 
 This is a responsive website for IPDC, designed to work seamlessly across mobile, medium, and larger devices. The layout adjusts dynamically to provide an optimal user experience on all screen sizes.
 
+# Live Preview
+
+https://ajaybajad.github.io/web-page-ui-clone/
+
 ## Features
 
 - **Responsive Design**: The website is fully responsive and adapts to different screen sizes.
